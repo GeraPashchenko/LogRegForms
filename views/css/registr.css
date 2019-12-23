@@ -1,0 +1,58 @@
+.registr-form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.registr-form h1 {
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+}
+
+.registr-form input[type="password"]:valid,
+.registr-form input[type="email"]:valid,
+.registr-form input[type="date"]:valid,
+.registr-form input[type="text"]:valid {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #55bb19;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.registr-form input[type="password"]:invalid,
+.registr-form input[type="email"]:invalid,
+.registr-form input[type="date"]:invalid,
+.registr-form input[type="text"]:invalid {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #bb4719;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.registr-form #select,
+.registr-form input[type="password"],
+.registr-form input[type="email"],
+.registr-form input[type="date"],
+.registr-form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.registr-form input[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
